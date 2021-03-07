@@ -15,6 +15,9 @@ input {
     font-weight: 700;
     letter-spacing: 1.4px;
 }
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
 
 .background {
     font-size: 12px;
