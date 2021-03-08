@@ -35,7 +35,7 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 }
 
 body {
-	font-family: 'Lato', Calibri, Arial, sans-serif;
+	font-family: 'Rubik', sans-serif;
 	color: #b1aea6;
 	background: #fffcf5;
 	min-height: 800px;
@@ -74,7 +74,7 @@ a:hover {
 .column:nth-child(2) {
 	min-height: 400px;
 	box-shadow: -1px 0 0 rgba(0,0,0,0.1);
-	background: url(../images/clickhere.png) 90px 0 no-repeat;
+	background: url(../images/clickhere.png) 120px 0 no-repeat;
 }
 
 .column:last-child:before {
