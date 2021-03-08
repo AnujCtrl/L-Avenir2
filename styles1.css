@@ -236,7 +236,6 @@ hr.solid {
 }
 
 
-/* navbar */
 
 a {
     text-decoration: none;
@@ -246,6 +245,8 @@ nav {
     font-family: monospace;
 }
 
+
+
 ul {
     background: white;
     list-style: none;
@@ -254,11 +255,14 @@ ul {
 }
 
 li {
-    color: #fff;
+   /* color: #fff;
     background: white;
+     
+    padding: 1rem;*/
+    float: none;
+
     display: block;
-    float: left;
-    padding: 1rem;
+   
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
@@ -269,26 +273,26 @@ li a {
 }
 
 li:hover {
-    background: #fbeeac;
+    background: bisque;
     cursor: pointer;
 }
 
 ul li ul {
     background: orange;
-    visibility: hidden;
-    opacity: 0;
-    min-width: 5rem;
-    position: absolute;
-    transition: all 0.5s ease;
-    margin-top: 1rem;
     left: 0;
     display: none;
+   /*  visibility: hidden;
+     opacity: 0;
+  min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;*/
+    
 }
 
 ul li:hover>ul,
 ul li:focus-within>ul,
 
-/* this is the line we add */
 
 ul li ul:hover {
     visibility: visible;
@@ -302,32 +306,29 @@ ul li ul li {
 }
 
 
-/* navbar ends */
 
 
-/* courses
- */
+
 
 .courses {
     background-color: #fff;
 }
 
 
-/* form css ends here */
+
 
 html,
 body {
-    background-color: #f0f9ed;
-    /* font-family: 'Source Sans Pro',sans-serif; */
-    overflow-x: hidden !important;
+   background-color: #f0f9ed;
+     /*overflow-x: hidden !important;*/
     margin: 0px !important;
     padding: 0px !important;
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
     transition: all ease .5s;
-    border-radius: 4px;
+    border-radius: 4px; 
     box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
-}
+} 
 
 * {
     text-decoration: none !important;
