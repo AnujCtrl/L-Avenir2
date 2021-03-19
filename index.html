@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -336,26 +336,26 @@
                                 </div>
                                 <div class="screen-body-item">
                                     <div class="app-form">
-                                        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                                        <form id="fcf-form-id" class="fcf-form-class" method="post" action="sendemail.php">
                                             <div class="app-form-group">
-                                                <input class="app-form-control" placeholder="NAME" value="Your Name" type="text" id="Name" name="Name" class="fcf-form-control" required>
+                                                <input class="app-form-control" class="fcf-form-control" type="text" name="name" class="text-box" placeholder="Your Name" required>
                                             </div>
                                             <div class="app-form-group">
-                                                <input class="app-form-control" placeholder="EMAIL" type="email" id="Email" name="Email" class="fcf-form-control" required>
+                                                <input class="app-form-control" type="email" name="email" class="text-box" placeholder="Your Email" required>
                                             </div>
                                             <div class="app-form-group">
-                                                <input class="app-form-control" placeholder="CONTACT" type="number" id="Contact" name="Contact" class="fcf-form-control" required>
+                                                <input class="app-form-control" type="text" name="Contact" class="text-box" placeholder="Contact" required>
                                             </div>
                                             <!--   <div class="app-form-group">
                                                 <input class="app-form-control" placeholder="CONTACT NO">
                                             </div>-->
                                             <div class="app-form-group message">
-                                                <input class="app-form-control" placeholder="YOUR MESSAGE" id="Message" name="Message" class="fcf-form-control">
+                                                <input class="app-form-control" name="message" rows="5" placeholder="Your Message" required>
                                             </div>
                                             <div class="app-form-group buttons">
                                                 <button class="app-form-button">CANCEL</button>
-                                                <button class="app-form-button" type="submit">SEND</button>
-
+                                                
+                                                <button class="app-form-button" type="submit" name="submit" class="send-btn" value="Send">SEND</button>
                                         </form>
                                         </div>
                                     </div>
@@ -366,6 +366,24 @@
 
                         </div>
         </section>
+
+   <!-- <div class="contact-section">
+            <div class="contact-info">
+              <div><i class="fas fa-map-marker-alt"></i>Address, City, Country</div>
+              <div><i class="fas fa-envelope"></i>contact@email.com</div>
+              <div><i class="fas fa-phone"></i>+00 0000 000 000</div>
+              <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
+            </div>
+            <div class="contact-form">
+              <h2>Contact Us</h2>
+              <form class="contact" action="" method="post">
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" name="submit" class="send-btn" value="Send">
+              </form>
+            </div>
+          </div> -->    
 
         <!--  <hr class="solid"> -->
 
