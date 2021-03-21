@@ -536,7 +536,7 @@ body {
 .landingText h3 {
     margin: 6px !important;
     font-size: 20px;
-    opacity: 0.5;
+    opacity: 0.3;
     line-height: 30px;
 }
 
@@ -844,7 +844,7 @@ li span {
         font-size: 3vw;
     }
     .landingImage img {
-        width: 100vw;
+        width: 52vw;
         margin-bottom: 20px;
     }
     /* ABOUT */
