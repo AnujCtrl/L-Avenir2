@@ -36,7 +36,7 @@
 
     $.fn.countTo.defaults = {
         from: 0, // the number the element should start at
-        to: 100, // the number the element should end at
+        to: 50, // the number the element should end at
         speed: 200, // how long it should take to count between the target numbers
         refreshInterval: 100, // how often the element should be updated
         decimals: 0, // the number of decimal places to show
@@ -46,9 +46,9 @@
 })(jQuery);
 
 jQuery(function($) {
-    $('.timer').countTo({
+    $('.timer2').countTo({
         from: 0,
-        to: 500,
+        to: 50,
         speed: 5000,
         refreshInterval: 50,
         onComplete: function(value) {

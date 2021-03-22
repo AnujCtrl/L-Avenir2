@@ -515,7 +515,8 @@ body {
     align-items: center;
     padding: 0 10vw 0 10vw;
     height: 100vh;
-    background-color: #F1FAEE;
+    background-color: #fff;
+    /* #F1FAEE */
 }
 
 .landing1 {
@@ -541,7 +542,7 @@ body {
 }
 
 .landingText .btn {
-    width: 120px;
+    width: 150px;
     margin-top: 30px;
     padding: 14px 20px 14px 20px;
     background-color: #E63946;
@@ -556,7 +557,7 @@ body {
 }
 
 .landingText .btn a {
-    font-size: 1.2vw;
+    font-size: 0.9vw;
     color: #fff;
 }
 
@@ -726,7 +727,7 @@ li span {
 
 .banner {
     height: 400px;
-    background-color: #F1FAEE;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     padding: 50px;
