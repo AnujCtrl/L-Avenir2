@@ -105,6 +105,7 @@ hr.solid {
     flex: 1;
     padding: 50px;
     width: 360px;
+
 }
 
 .screen-body-item.left {
@@ -758,8 +759,8 @@ li span {
     position: fixed;
     width: 60px;
     height: 60px;
-    top: 600px;
-    right: 40px;
+    top: 580px;
+    right: 30px;
     background-color: #25d366;
     color: #FFF;
     border-radius: 50px;
@@ -778,11 +779,11 @@ li span {
 
 .footer {
     background-color: #A8DADC;
-    height: 100px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
 }
 
 .footerlinks a {
