@@ -379,10 +379,10 @@ ul {
 }
 
 li {
-    /* color: #fff;
+    color: #fff;
     background: white;
 
-    padding: 1rem;*/
+    padding: 1rem;
     float: none;
     display: block;
     position: relative;
@@ -403,12 +403,12 @@ ul li ul {
     background: orange;
     left: 0;
     display: none;
-    /*  visibility: hidden;
+     visibility: hidden;
      opacity: 0;
   min-width: 5rem;
     position: absolute;
     transition: all 0.5s ease;
-    margin-top: 1rem;*/
+    margin-top: 1rem;
 }
 
 ul li:hover>ul,
@@ -431,7 +431,7 @@ ul li ul li {
 html,
 body {
     background-color: #f0f9ed;
-    /*overflow-x: hidden !important;*/
+    overflow-x: hidden !important;
     margin: 0px !important;
     padding: 0px !important;
     font-family: 'Rubik', sans-serif;
