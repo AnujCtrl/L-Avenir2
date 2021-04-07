@@ -12,7 +12,7 @@
         },
         style: {
             transform: [{ scale: [0.4, 1] }],
-            opacity: [0, 1]
+            opacity: [0, 0]
         },
         interactive: false
     });

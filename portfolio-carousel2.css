@@ -54,19 +54,19 @@
 }
 
 .ms--images .ms-slide:nth-child(1) .ms-slide__image {
-    background-image: url("./Asset/800px-Flag_of_Germany.svg.png");
+    background-image: url("https://www.brabbu.com/en/inspiration-and-ideas/wp-content/uploads/2017/04/Brandenburger_Tor_abends.jpg");
 }
 
 .ms--images .ms-slide:nth-child(2) .ms-slide__image {
-    background-image: url("./Asset/Flag_of_France.png");
+    background-image: url("https://francetravelblog.com/wp-content/uploads/2020/04/Most-Famous-Monuments-In-France.jpg");
 }
 
 .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-    background-image: url("./Asset/750px-Flag_of_Spain.svg.png");
+    background-image: url("https://www.touropia.com/gfx/d/ancient-aqueducts/aqueduct_of_segovia.jpg?v=1");
 }
 
 .ms--images .ms-slide:nth-child(4) .ms-slide__image {
-    background-image: url("./Asset/800px-Flag_of_Italy.svg.png");
+    background-image: url("https://www.planetware.com/wpimages/2019/05/italy-rome-colosseum-visiting-highlights-tips-tours.jpg");
 }
 
 .ms--images .ms-slide__image-container {
