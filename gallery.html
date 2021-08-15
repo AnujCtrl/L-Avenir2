@@ -25,8 +25,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@476&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/b28e770cf8.js" crossorigin="anonymous"></script>
@@ -58,117 +57,158 @@
 
 
             </div>
-            <div class="" style="color:#1D3557; padding-right:270px; font-size:1.5rem;"><a href="index.html">
+            <div class="" style="color:#1D3557; padding-right:600px; font-size:1.5rem;"><a href="index.html" style="color:#E63946;">
                 L'Avenir Language Alliance
 
             </div>
-            <div class="links ">
-                <ul style="float: left; padding: 1rem; ">
-                <li style="float: left; padding-right: 0.4rem; "><a href="aboutus.html ">About Us</a></li>
-                <li style="float: left; padding-right: 1.5rem; color: black; ">Services</li>
-                <li style="float: left; padding-right: 0.4rem; "><a href="gallery.html " style="color:#E63946;">Gallery</a>
-                </li>
+            <div class="links">
+                <ul style="float: left; padding: 1rem;">
+                <li style="float: left; padding-right: 0.4rem;"><a href="aboutus.html">About Us</a></li>
+                <li style="float: left; padding-right: 1.5rem; color: black;">Services</li>
+                <li style="float: left; padding-right: 0.4rem;"><a href="gallery.html">Gallery</a></li>
+                <li style="float: left; padding: 1rem;"><a href="https://www.google.com/forms/about/">Career</a></li>
                 <li style="float: left; padding: 1rem;"><a href="index.html#contactus">Contact</a></li>
-                <li style="float: left; padding: 1rem;"><a href="">Career</a></li>
+
                 </ul>
             </div>
         </div>
     </div>
     </div><br><br><br><br><br>
+
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+        
+        body {
+            margin-bottom: 100px !important;
+            background-color: white;
+        }
+        
+        body a {
+            text-decoration: none;
+        }
+        
+        body a:hover {
+            text-decoration: none;
+        }
+        
+        body p {
+            line-height: 1.45;
+            font-size: 16px;
+        }
+        
+        footer {
+            background-color: #000;
+            color: rgb(0, 0, 0);
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            padding: 20px 0;
+        }
+        
+        #wrapper {
+            margin-top: 30px;
+        }
+        
+        #filter {
+            list-style-type: none;
+        }
+        
+        #filter li {
+            display: inline-block;
+            margin-right: 15px;
+            color: black;
+        }
+        
+        #filter li:hover {
+            color: red;
+            cursor: pointer;
+        }
+        
+        #filter li.active {
+            color: red;
+        }
+        
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        #portfolio li {
+            float: left;
+            margin: 20px;
+        }
+        
+        #portfolio li img {
+            max-width: 500px;
+        }
+    </style>
+
+    <script>
+        $(function() {
+
+            $("#filter li").click(function() {
+                console.log(1);
+                var category = $(this).html();
+
+                category = category.toLowerCase();
+
+                $("#filter li").removeClass("active");
+
+                $(this).addClass("active");
+
+                $("#portfolio li").fadeOut();
+
+                $("#portfolio li").each(function() {
+
+                    if ($(this).hasClass(category)) {
+                        $(this).fadeIn();
+                    }
+
+                });
+
+            });
+
+        });
+    </script>
+
+
+
     <h1><span style="color: #1D3557;font-size: 3rem;position: absolute;left: 43%;">Gallery</span></h1>
 
-    <link rel="stylesheet" type="text/css" href="gallery.css">
-    <div class="row" style="padding: 100px;">
-        <div class="column">
-            <img src="Gallery/IMG_20180126_175205.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <!-- <img src="rocks.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="falls2.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="paris.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="nature.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="mist.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="paris.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;"> -->
-        </div>
-        <div class="column">
-            <img src="Gallery/IMG_20191207_155222.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <!-- <img src="ocean.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="wedding.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="mountainskies.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="rocks.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="underwater.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;"> -->
-        </div>
-        <div class="column">
-            <img src="Gallery/IMG_20191207_163253.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <!-- <img src="rocks.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="falls2.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="paris.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="nature.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="mist.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="paris.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;"> -->
-        </div>
-        <div class="column">
-            <img src="Gallery/IMG_20191214_120123.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <!-- <img src="ocean.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="wedding.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="mountainskies.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="rocks.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;">
-            <img src="underwater.jpg" style="border-radius: 20px;border-style: solid;border-width: 5px;border-color: #1D3557;"> -->
-        </div>
+
+
+
+    <div id="wrapper">
+        <ul id="filter" style="color:black;">
+            <li class="active">All</li>
+            <li>Event_1</li>
+            <li>Event_2</li>
+            <li>Event_3</li>
+        </ul>
+        <ul id="portfolio">
+            <li class="all event_1"><img src="Gallery/IMG_20180126_175205.jpg" alt="img" onclick="window.open(this.src, '_blank');"></li>
+            <li class="all event_2"><img src="Gallery/IMG_20191207_155222.jpg" alt="img" onclick="window.open(this.src, '_blank');">></li>
+            <li class="all event_2"><img src="Gallery/IMG_20191207_163253.jpg" alt="img" onclick="window.open(this.src, '_blank');">></li>
+            <li class="all event_3"><img src="Gallery/IMG_20191214_120123.jpg" alt="img" onclick="window.open(this.src, '_blank');">></li>
+
+        </ul>
+
     </div>
 
-    <section class="yellow-section footer" id="footer" style="padding-top:10px;">
-
-        <!-- <div class="footer"> -->
-        <div class="mapouter" style="float:left; position:relative; right:400px; top:30px;">
-
-
-            <div class="gmap_canvas"><iframe style="border-style: solid;border-width: 5px; border-color: black;" width="492" height="326" id="gmap_canvas" src="https://maps.google.com/maps?q=L'%20Avenir%20Language%20Alliance%2048/9,%20Seth%20Sadan,%20Near%20Sion-Chunbhatti,%20Highway,%20Sion%20Cir,%20Sion%20West,%20Mumbai,%20Maharashtra%20400022&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                <style>
-                    .mapouter {
-                        position: relative;
-                        text-align: right;
-                        height: 326px;
-                        width: 492px;
-                    }
-                </style>
-                <style>
-                    .gmap_canvas {
-                        overflow: hidden;
-                        background: none !important;
-                        height: 326px;
-                        width: 492px;
-                    }
-                </style>
-            </div>
-
-        </div>
-        <div class="social" style="float:left; position:relative; left:200px; bottom:300px;">
-
-            <h2>Head Office</h2><br>
-
-
-            <i class="fas fa-map-marker-alt"></i>
-            <span>Sion Branch</span>
-            <p style="font-weight:100;">48/9, Seth Sadan, Near Sion-Chunbhatti, Highway,<br> Sion Cir, Sion West, Mumbai, Maharashtra 400022</p>
-
-            <br>
-            <a href="https://www.instagram.com/lavenirlanguage/"><i class="social fab fa-2x fa-instagram" style="font-size: 2.5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/lavenirlanguages/"><i class="social fab fa-2x fa-facebook-square" style="font-size: 2.5rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a>
-            <a href="https://www.linkedin.com/company/lavenirlanguagealliance"><i class="social fab fa-2x fa-linkedin-in" style="font-size: 2.5rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a>
-            <a href="https://twitter.com/lavenirlanguage?lang=en"><i class="social fab fa-2x fa-twitter" style="font-size: 2.5rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a>
-            <br><br>
-            <p style="font-size:10px;">© Copyright 2021 L'Avenir</p>
-        </div>
 
 
 
 
-        <!-- </div> -->
-    </section>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+
+
 </body>
+
+<!-- <div class="">
+    <iframe width="100%" height="500" src="footer.html" frameborder="0" scrolling="auto" allowfullscreen></iframe>
+</div> -->
 
 </html>
