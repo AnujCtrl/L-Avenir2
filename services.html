@@ -26,31 +26,27 @@
     * {
         box-sizing: border-box;
     }
-
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
     /* Float four columns side by side */
-
+    
     .column {
         float: left;
         width: 25%;
         padding: 0 10px;
     }
     /* Remove extra left and right margins, due to padding in columns */
-
+    
     .row {
         margin: 0 -5px;
     }
     /* Clear floats after the columns */
-
+    
     .row:after {
         content: "";
         display: table;
         clear: both;
     }
     /* Style the counter cards */
-
+    
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         /* this adds the "card" effect */
@@ -59,7 +55,7 @@
         background-color: #f1f1f1;
     }
     /* Responsive columns - one column layout (vertical) on small screens */
-
+    
     @media screen and (max-width: 600px) {
         .column {
             width: 100%;
@@ -70,7 +66,7 @@
 </style>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    <div class="wrapper" style="margin-bottom: 150px;">
+    <div class="wrapper">
         <div class="nav">
             <div class="logo">
                 <img src="asset/logo.jpg" class="logo" alt="cant view">
@@ -83,11 +79,12 @@
             </div>
             <div class="links">
                 <ul style="float: left; padding: 1rem;">
-                <li style="float: left; padding-right: 0.4rem;"><a href="aboutus.html"style="color:#E63946;">About Us</a></li>
-                <li style="float: left; padding-right: 1.5rem; color: black;">Services</li>
+                <li style="float: left; padding-right: 0.4rem;"><a href="aboutus.html">About Us</a></li>
+                <li style="float: left; padding-right: 1.5rem; color: black;"><a href="services.html" style="color:#E63946;">Services</a></li>
                 <li style="float: left; padding-right: 0.4rem;"><a href="gallery.html">Gallery</a></li>
+                <li style="float: left; padding: 1rem;"><a href="https://www.google.com/forms/about/">Career</a></li>
                 <li style="float: left; padding: 1rem;"><a href="index.html#contactus">Contact</a></li>
-                <li style="float: left; padding: 1rem;"><a href="">Career</a></li>
+
                 </ul>
             </div>
         </div>
@@ -111,7 +108,7 @@
         <div class="landing" style="height: 470px;">
             <div class="aos-init" data-aos="fade-up" data-aos-duration="1000" style="line-height: 1.5;">
                 <h1><span style="font-size: 5vw; color:#293e5a; "><span style="font-size: 5vw; color:#457B9D;">Our Services</span>
-                </div>
+            </div>
             <div class="landingImage aos-init " data-aos="fade-down " data-aos-duration="2000 ">
                 <img src="asset/Notebook-amico-01.svg " style="height: 23.75vw; width: 23.75vw;" alt=" ">
             </div>
@@ -136,18 +133,18 @@
                         color: #333333;
                         width: 100%;
                     }
-
+                    
                     .tftable th {
                         font-size: 18px;
                         background-color: #f1faee;
                         padding: 8px;
                         text-align: left;
                     }
-
+                    
                     .tftable tr {
                         background-color: #f1faee;
                     }
-
+                    
                     .tftable td {
                         font-size: 16px;
                         padding: 8px;
@@ -230,7 +227,7 @@
                     border-width: 5px;
                     border-color: #a9a9a9;
                 }
-
+                
                 .tftable2 th {
                     font-size: 18px;
                     background-color: #f1faee;
@@ -240,11 +237,11 @@
                     border-color: #1D3557;
                     text-align: left;
                 }
-
+                
                 .tftable2 tr {
                     background-color: #cdcdcd;
                 }
-
+                
                 .tftable2 td {
                     font-size: 16px;
                     border-width: 5px;
@@ -255,24 +252,20 @@
             </style>
 
 
-<div id="a">
-  <table class="tftable2" style="text-align: center; padding-bottom:15px;">
-      <tr style="background-color: wheat; border-spacing:10px;">
+            <div id="a">
+                <table class="tftable2" style="text-align: center; padding-bottom:15px;">
+                    <tr style="background-color: wheat; border-spacing:10px;">
 
-          <td style="text-align: left;">
-              <h1 style="color: #1D3557;">Coaching</h1>
+                        <td style="text-align: left;">
+                            <h1 style="color: #1D3557;">Coaching</h1>
 
-              <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br>
-- Nuturing young mind through our Young Learner's Program <br>
-- Achieveing excellent academic scores across boards <br>
-- Enhancing linguistic skills to appear for various International Exams <br>
-- Training adults to upgrade & boost career <br>
-- Empowering employees through our Corporate Training Programs</p>
-          </td>
-      </tr>
+                            <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br> - Nuturing young mind through our Young Learner's Program <br> - Achieveing excellent academic scores across boards <br> - Enhancing linguistic skills to appear for
+                                various International Exams <br> - Training adults to upgrade & boost career <br> - Empowering employees through our Corporate Training Programs</p>
+                        </td>
+                    </tr>
 
-  </table>
-</div>
+                </table>
+            </div>
 
             <table class="b tftable2" style="text-align: center; padding-bottom:15px;">
                 <tr style="background-color: wheat; border-spacing:10px;">
@@ -280,12 +273,8 @@
                     <td style="text-align: left;">
                         <h1 style="color: #1D3557;">Workshops</h1>
 
-                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br>
-- Organizing one day language workshops which are a blend of entertainment & learning<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br> - Organizing one day language workshops which are a blend of entertainment & learning<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> -
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                     </td>
                 </tr>
 
@@ -296,12 +285,8 @@
                     <td style="text-align: left;">
                         <h1 style="color: #1D3557;">Personalised Events:</h1>
 
-                        <p style="line-height: 20px;">A team of experienced event experts dedicated to :<br>
-- Hosting various events like birthdays, corporate parties with a language twist<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                        <p style="line-height: 20px;">A team of experienced event experts dedicated to :<br> - Hosting various events like birthdays, corporate parties with a language twist<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum
+                            dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                     </td>
                 </tr>
 
@@ -312,12 +297,9 @@
                     <td style="text-align: left;">
                         <h1 style="color: #1D3557;">Translation:</h1>
 
-                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br>
--  Maintaining contextual accuracy & consistency with quick turnaround time at affordable rates across different languages & fields<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br> - Maintaining contextual accuracy & consistency with quick turnaround time at affordable rates across different languages & fields<br> - Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod</p>
                     </td>
                 </tr>
 
@@ -328,12 +310,9 @@
                     <td style="text-align: left;">
                         <h1 style="color: #1D3557;">Curriculum Designing:</h1>
 
-                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br>
--    Curating & designing personalised curriculum right from blueprinting process to its execution for professional use<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br> - Curating & designing personalised curriculum right from blueprinting process to its execution for professional use<br> - Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod</p>
                     </td>
                 </tr>
 
@@ -344,12 +323,8 @@
                     <td style="text-align: left;">
                         <h1 style="color: #1D3557;">Interpretation:</h1>
 
-                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br>
-        - Enabling faster & enhanced communication across languages from source to target<br>
-        - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-        - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-        - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-        - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br> - Enabling faster & enhanced communication across languages from source to target<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem
+                            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                     </td>
                 </tr>
 
@@ -360,12 +335,7 @@
                     <td style="text-align: left;">
                         <h1 style="color: #1D3557;">Other Services:</h1>
 
-                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br>
-        - Catering to other requirements such as transcription, voice-over, subtitling & dubbing<br>
-        - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-        - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-        - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
-        - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+                        <p style="line-height: 20px;">A team of experienced language experts dedicated to :<br> - Catering to other requirements such as transcription, voice-over, subtitling & dubbing<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>                            - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
                     </td>
                 </tr>
 
