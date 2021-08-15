@@ -54,25 +54,25 @@
 }
 
 .ms--images .ms-slide:nth-child(1) .ms-slide__image {
-    background-image: url("https://www.brabbu.com/en/inspiration-and-ideas/wp-content/uploads/2017/04/Brandenburger_Tor_abends.jpg");
+    background-image: url("asset/language illustrations-03.png");
 }
 
 .ms--images .ms-slide:nth-child(2) .ms-slide__image {
-    background-image: url("https://francetravelblog.com/wp-content/uploads/2020/04/Most-Famous-Monuments-In-France.jpg");
+    background-image: url("asset/language illustrations-01.png");
 }
 
 .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-    background-image: url("https://www.touropia.com/gfx/d/ancient-aqueducts/aqueduct_of_segovia.jpg?v=1");
+    background-image: url("asset/language illustrations-02.png");
 }
 
 .ms--images .ms-slide:nth-child(4) .ms-slide__image {
-    background-image: url("https://www.planetware.com/wpimages/2019/05/italy-rome-colosseum-visiting-highlights-tips-tours.jpg");
+    background-image: url("asset/language illustrations-04.png");
 }
 
 .ms--images .ms-slide__image-container {
     width: 80%;
     height: 80%;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(168, 218, 220, 0.3);
     overflow: hidden;
 }
 

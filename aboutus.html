@@ -22,60 +22,83 @@
 </head>
 
 
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* Float four columns side by side */
+    
+    .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+    }
+    /* Remove extra left and right margins, due to padding in columns */
+    
+    .row {
+        margin: 0 -5px;
+    }
+    /* Clear floats after the columns */
+    
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* Style the counter cards */
+    
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* this adds the "card" effect */
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+    }
+    /* Responsive columns - one column layout (vertical) on small screens */
+    
+    @media screen and (max-width: 600px) {
+        .column {
+            width: 100%;
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+</style>
+
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    <div class="wrapper" style="padding-bottom:50px;">
+    <div class="wrapper" style="margin-bottom: 150px;">
         <div class="nav">
-          <div class="logo">
-            <img src="asset/logo.jpg" class="logo" alt="cant view">
+            <div class="logo">
+                <img src="asset/logo.jpg" class="logo" alt="cant view">
 
 
-          </div>
-          <div class="" style="color:#1D3557; padding-right:270px; font-size:1.5rem;">
-            L'Avenir Language Alliance
+            </div>
+            <div class="" style="color:#1D3557; padding-right:270px; font-size:1.5rem;"><a href="index.html">
+                L'Avenir Language Alliance
 
-          </div>
-          <div class="links">
-            <ul style="float: left; padding: 1rem;">
-              <li style="float: left; padding: 1rem;"><a href="index.html" >Home</a></li>
-              <li style="float: left; padding-right: 0.4rem;"><a href="aboutus.html" style="color:#E63946;">About Us</a></li>
-              <li style="float: left; padding-right: 1.5rem; color: black;">Courses
-                <ul class="dropdown" style="float: left;">
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
-                                    <li style="float: left;height: 50px;"><a href="german.html">German</a></li>
+            </div>
+            <div class="links">
+                <ul style="float: left; padding: 1rem;">
+                <li style="float: left; padding-right: 0.4rem;"><a href="aboutus.html"style="color:#E63946;">About Us</a></li>
+                <li style="float: left; padding-right: 1.5rem; color: black;">Services</li>
+                <li style="float: left; padding-right: 0.4rem;"><a href="gallery.html">Gallery</a></li>
+                <li style="float: left; padding: 1rem;"><a href="index.html#contactus">Contact</a></li>
+                <li style="float: left; padding: 1rem;"><a href="">Career</a></li>
                 </ul>
-              </li>
-
-              <li style="float: left; padding-right: 0.4rem;"><a href="gallery.html">Gallery</a></li>
-              <li style="float: left; padding: 1rem;"><a href="index.html#contactus">Contact</a></li>
-
-
-
-
-            </ul>
-          </div>
-
-
-        <div>
-
+            </div>
+        </div>
     </div>
-      </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script src="js/jquery.dlmenu.js"></script>
-        <script>
-            $(function() {
-                $('#dl-menu').dlmenu();
-            });
-        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.dlmenu.js"></script>
+    <script>
+        $(function() {
+            $('#dl-menu').dlmenu();
+        });
+    </script>
 
 
 
@@ -84,58 +107,91 @@
     <a class="float" target="_blank" href="https://wa.me/918104489168?text=I%20am%20interested%20"><i class="fa fa-whatsapp my-float"></i>
   </a>
 
-    <section class="white-section" id="assessment" >
+    <section class="white-section" id="assessment">
         <div class="landing" style="height: 470px;">
             <div class="aos-init" data-aos="fade-up" data-aos-duration="1000" style="line-height: 1.5;">
-                <h1><span style="font-size: 5vw; color:#293e5a; "><span style="font-size: 5vw; color:#457B9D;">About Us</span><!-- You Are At Home Anywhere <br> <br></span>
+                <h1><span style="font-size: 5vw; color:#293e5a; "><span style="font-size: 5vw; color:#457B9D;">About Us</span>
+                    <!-- You Are At Home Anywhere <br> <br></span>
                     <h3>
                         <span style="color:rgb(235,121,121); opacity:1;">L’Avenir</span>, which means "future, " was named in honour of the fact that learning a foreign language is the first step toward a brighter future in today's global economy. Our logo is a globe, and it inspires us to be the first to teach all of the world's major languages.
                             </span>
                         </h3>
-                </div>-->    </div>
-                <div class="landingImage aos-init " data-aos="fade-down " data-aos-duration="2000 " >
-                    <img src="asset/Notebook-amico.png " style="height: 26.75vw; width: 26.75vw;" alt=" " >
-                </div>
+                </div>--></div>
+            <div class="landingImage aos-init " data-aos="fade-down " data-aos-duration="2000 ">
+                <img src="asset/Notebook-amico-01.svg " style="height: 23.75vw; width: 23.75vw;" alt=" ">
+            </div>
 
-        </section>
+    </section>
 
 
     <section class="white-section" id="precautions" style="background-color: #f1faee;">
         <div class="infoSection">
-           <!-- <div class="infoHeader aos-init" data-aos="fade-up" data-aos-duration="1000" style="font-size:1.5rem;">
+            <!-- <div class="infoHeader aos-init" data-aos="fade-up" data-aos-duration="1000" style="font-size:1.5rem;">
 
                 <h1  style="color: black;">USPS Of Our Course</h1>
 
             </div> -->
 
-
+            <div class="row">
+                <div class="column">
+                    <div class="card">..</div>
+                </div>
+                <div class="column">
+                    <div class="card">..</div>
+                </div>
+                <div class="column">
+                    <div class="card">..</div>
+                </div>
+                <div class="column">
+                    <div class="card">..</div>
+                </div>
+            </div>
             <div class="jumbotron bg-secondary" style="padding: 100px">
-                <h1  class="infoHeader aos-init" data-aos="fade-up" data-aos-duration="1000" style="padding-right: 45px; font-size:2.5rem;color: black;">
+                <h1 class="infoHeader aos-init" data-aos="fade-up" data-aos-duration="1000" style="padding-right: 45px; font-size:2.5rem;color: black;">
                     Why Us?
                 </h1>
 
+                <h3></h3>
+
                 <style type="text/css">
-                .tftable {font-size:18px;color:#333333;width:100%;}
-                .tftable th {font-size:18px;background-color:#f1faee;padding: 8px;text-align:left;}
-                .tftable tr {background-color:#f1faee;}
-                .tftable td {font-size:16px;padding: 8px;}
+                    .tftable {
+                        font-size: 18px;
+                        color: #333333;
+                        width: 100%;
+                    }
+                    
+                    .tftable th {
+                        font-size: 18px;
+                        background-color: #f1faee;
+                        padding: 8px;
+                        text-align: left;
+                    }
+                    
+                    .tftable tr {
+                        background-color: #f1faee;
+                    }
+                    
+                    .tftable td {
+                        font-size: 16px;
+                        padding: 8px;
+                    }
                 </style>
 
-                <table class="tftable" style="text-align: center;" >
+                <table class="tftable" style="text-align: center;">
 
                     <tr>
                         <th style="text-align: center;">
-                            <i class="social fas fa-child"style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
-                            <i class="social fas fa-user-tie"style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
+                            <i class="social fas fa-child" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
+                            <i class="social fas fa-user-tie" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
                         </th>
                         <th style="text-align: center;">
-                            <i class="social fas fa-language"style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
+                            <i class="social fas fa-language" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
                         </th>
                         <th style="text-align: center;">
-                            <i class="social fas fa-cubes"style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
+                            <i class="social fas fa-cubes" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
                         </th>
                         <th style="text-align: center;">
-                            <i class="social fas fa-users"style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
+                            <i class="social fas fa-users" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
                         </th>
                     </tr>
 
@@ -153,16 +209,16 @@
                     <tr>
 
                         <th style="text-align: center;">
-                            <i class="social fas fa-chalkboard-teacher"style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
+                            <i class="social fas fa-chalkboard-teacher" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
                         </th>
                         <th style="text-align: center;">
-                            <i class="social fas fa-book"style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
+                            <i class="social fas fa-book" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
                         </th>
                         <th style="text-align: center;">
-                            <i class="social fas fa-edit"style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
+                            <i class="social fas fa-edit" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
                         </th>
                         <th style="text-align: center;">
-                            <i class="social fas fa-globe"style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
+                            <i class="social fas fa-globe" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i>
                         </th>
 
                     </tr>
@@ -190,22 +246,54 @@
         <div>
 
             <style type="text/css">
-                .tftable2 {font-size:18px;color:#333333;width:100%;border-width: 5px;border-color: #a9a9a9;}
-                .tftable2 th {font-size:18px;background-color:#f1faee;border-width: 5px;padding: 8px;border-style: solid;border-color: #1D3557;text-align:left;}
-                .tftable2 tr {background-color:#cdcdcd;}
-                .tftable2 td {font-size:16px;border-width: 5px;padding: 8px;border-style: solid;border-color: #1D3557;}
+                .tftable2 {
+                    font-size: 18px;
+                    color: #333333;
+                    width: 100%;
+                    border-width: 5px;
+                    border-color: #a9a9a9;
+                }
+                
+                .tftable2 th {
+                    font-size: 18px;
+                    background-color: #f1faee;
+                    border-width: 5px;
+                    padding: 8px;
+                    border-style: solid;
+                    border-color: #1D3557;
+                    text-align: left;
+                }
+                
+                .tftable2 tr {
+                    background-color: #cdcdcd;
+                }
+                
+                .tftable2 td {
+                    font-size: 16px;
+                    border-width: 5px;
+                    padding: 8px;
+                    border-style: solid;
+                    border-color: #1D3557;
+                }
+            </style>
 
-                </style>
 
 
+            <table class="tftable2" style="text-align: center;">
+                <tr style="background-color: wheat; ">
+                    <td style="padding: 20px;"><img style="padding:0px;border-width: 3px;border-width: 5px;border-style: solid;border-color: white;box-shadow: 10px 10px 5px #f1faee;" src="Asset/anuj.jpeg"></td>
+                    <td style="text-align: left;">
+                        <h1 style="color: #1D3557;">Anuj Patil (Founder at ZenG)</h1>
+                        <p style="line-height: 20px;"> <i class="social fas fa-quote-left" style="font-size: 1.5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i> <br>Power is the position to do good for others. Bringing your knowledge in service to others is the greatest
+                            satisfaction there is. I aspire to create a world filled with fair opportunities and limitless knowledge.<br><i class="social fas fa-quote-right" style="font-size: 1.5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i></p>
 
-            <table class="tftable2" style="text-align: center;" >
-            <tr style="background-color: wheat; "><td style="padding: 20px;"><img style="padding:0px;border-width: 3px;border-width: 5px;border-style: solid;border-color: white;box-shadow: 10px 10px 5px #f1faee;" src="Asset/anuj.jpeg"></td><td style="text-align: left;"><h1 style="color: #1D3557;">Anuj Patil (Founder at ZenG)</h1>
-              <p style="line-height: 20px;"> <i class="social fas fa-quote-left"style="font-size: 1.5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i> <br>Power is the position to do good for others. Bringing your knowledge in service to others is the greatest satisfaction there is. I aspire to create a world filled with fair opportunities and limitless knowledge.<br><i class="social fas fa-quote-right" style="font-size: 1.5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i></p>
+                        <p style="line-height: 20px;"> Born in the small town of Korba, Chhattisgarh, the challenge of standing out with limited communication skills came tough on Stuti. After completing her degree in Chemical Engineering from NIT Surat, Stuti took it on her own hands
+                            to empower herself with learning newer skills and gaining on ground experience with brands like Disney, HSBC, Mahindra and Indian Oil Corporation Limited (IOCL) allowing her to reach heights in her entrepreneurship career.</p>
 
-             <p style="line-height: 20px;"> Born in the small town of Korba, Chhattisgarh, the challenge of standing out with limited communication skills came tough on Stuti. After completing her degree in Chemical Engineering from NIT Surat, Stuti took it on her own hands to empower herself with learning newer skills and gaining on ground experience with brands like Disney, HSBC, Mahindra and Indian Oil Corporation Limited (IOCL) allowing her to reach heights in her entrepreneurship career.</p>
-
-            <p style="line-height: 20px;">  With being the co-founder of International Academy of Languages (IAOL), Stuti’s vision is to empower people with dynamic life skills, thereby providing them a platform towards building a global communication network with endless international opportunities.</p></td></tr>
+                        <p style="line-height: 20px;"> With being the co-founder of International Academy of Languages (IAOL), Stuti’s vision is to empower people with dynamic life skills, thereby providing them a platform towards building a global communication network with endless
+                            international opportunities.</p>
+                    </td>
+                </tr>
             </table>
         </div>
 
@@ -218,51 +306,50 @@
         <div class="mapouter" style="float:left; position:relative; right:400px; top:30px;">
 
 
-            <div class="gmap_canvas"><iframe style="border-style: solid;border-width: 5px; border-color: black;" width="492" height="326" id="gmap_canvas"
-                src="https://maps.google.com/maps?q=L'%20Avenir%20Language%20Alliance%2048/9,%20Seth%20Sadan,%20Near%20Sion-Chunbhatti,%20Highway,%20Sion%20Cir,%20Sion%20West,%20Mumbai,%20Maharashtra%20400022&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-              <style>
-                .mapouter {
-                  position: relative;
-                  text-align: right;
-                  height: 326px;
-                  width: 492px;
-                }
-              </style>
-              <style>
-                .gmap_canvas {
-                  overflow: hidden;
-                  background: none !important;
-                  height: 326px;
-                  width: 492px;
-                }
-              </style>
+            <div class="gmap_canvas"><iframe style="border-style: solid;border-width: 5px; border-color: black;" width="492" height="326" id="gmap_canvas" src="https://maps.google.com/maps?q=L'%20Avenir%20Language%20Alliance%2048/9,%20Seth%20Sadan,%20Near%20Sion-Chunbhatti,%20Highway,%20Sion%20Cir,%20Sion%20West,%20Mumbai,%20Maharashtra%20400022&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 326px;
+                        width: 492px;
+                    }
+                </style>
+                <style>
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 326px;
+                        width: 492px;
+                    }
+                </style>
             </div>
 
         </div>
         <div class="social" style="float:left; position:relative; left:200px; bottom:300px;">
 
-          <h2>Head Office</h2><br>
+            <h2>Head Office</h2><br>
 
 
-          <i class="fas fa-map-marker-alt"></i>
-          <span>Sion Branch</span>
-          <p style="font-weight:100;">48/9, Seth Sadan, Near Sion-Chunbhatti, Highway,<br> Sion Cir, Sion West, Mumbai, Maharashtra 400022</p>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Sion Branch</span>
+            <p style="font-weight:100;">48/9, Seth Sadan, Near Sion-Chunbhatti, Highway,<br> Sion Cir, Sion West, Mumbai, Maharashtra 400022</p>
 
-          <br>
-          <a href="https://www.instagram.com/lavenirlanguage/"><i class="social fab fa-2x fa-instagram" style="font-size: 2.5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i></a>
-          <a href="https://www.facebook.com/lavenirlanguages/"><i class="social fab fa-2x fa-facebook-square" style="font-size: 2.5rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/company/lavenirlanguagealliance"><i class="social fab fa-2x fa-linkedin-in" style="font-size: 2.5rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/lavenirlanguage?lang=en"><i class="social fab fa-2x fa-twitter" style="font-size: 2.5rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a>
-          <br><br>
-          <p style="font-size:10px;">© Copyright 2021 L'Avenir</p>
+            <br>
+            <a href="https://www.instagram.com/lavenirlanguage/"><i class="social fab fa-2x fa-instagram" style="font-size: 2.5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/lavenirlanguages/"><i class="social fab fa-2x fa-facebook-square" style="font-size: 2.5rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/company/lavenirlanguagealliance"><i class="social fab fa-2x fa-linkedin-in" style="font-size: 2.5rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/lavenirlanguage?lang=en"><i class="social fab fa-2x fa-twitter" style="font-size: 2.5rem; text-decoration: none; color: #1D3557;" aria-hidden="true"></i></a>
+            <br><br>
+            <p style="font-size:10px;">© Copyright 2021 L'Avenir</p>
         </div>
 
 
 
 
         <!-- </div> -->
-      </section>
+    </section>
 
 
     </div>
