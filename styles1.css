@@ -105,7 +105,6 @@ hr.solid {
     flex: 1;
     padding: 50px;
     width: 360px;
-
 }
 
 .screen-body-item.left {
@@ -381,7 +380,6 @@ ul {
 li {
     color: #fff;
     background: white;
-
     padding: 1rem;
     float: none;
     display: block;
@@ -403,9 +401,9 @@ ul li ul {
     background: orange;
     left: 0;
     display: none;
-     visibility: hidden;
-     opacity: 0;
-  min-width: 5rem;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
     position: absolute;
     transition: all 0.5s ease;
     margin-top: 1rem;
@@ -427,8 +425,8 @@ ul li ul li {
 .courses {
     background-color: #fff;
 }
-#f0f9ed
-html,
+
+#f0f9ed html,
 body {
     background-color: #fff;
     overflow-x: hidden !important;
@@ -464,7 +462,7 @@ body {
 }
 
 .nav .links a {
-    margin-right: 25px;
+    margin: 25px;
     font-size: 16px;
     font-weight: 600;
     color: #000;
@@ -515,7 +513,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 10vw 0 10vw;
-    height: 100vh;
+    height: 80vh;
     background-color: #fff;
     /* #F1FAEE */
 }

@@ -69,27 +69,33 @@
 </style>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    <div class="wrapper">
-        <div class="nav">
-            <div class="logo">
-                <img src="asset/logo.jpg" class="logo" alt="cant view">
-
-
+    <link rel="stylesheet" type="text/css" href="navbar.css" />
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="logo" style="padding-top: 0px;color: #000;">
+                <a href="index.html">
+                    <img src="asset/logo.jpg" class="logo" alt="cant view">
             </div>
-            <div class="" style="color:#1D3557; padding-right:270px; font-size:1.5rem;"><a href="index.html" style="color:#E63946;">
+
+        </div>
+        <div class="" style="color:#1D3557; padding-right:270px; font-size:1.5rem;"><a href="index.html">
                 L'Avenir Language Alliance
-
             </div>
-            <div class="links">
-                <ul style="float: left; padding: 1rem;">
-                <li style="float: left; padding-right: 0.4rem;"><a href="aboutus.html"style="color:#E63946;">About Us</a></li>
-                <li style="float: left; padding-right: 1.5rem; color: black;"><a href="services.html">Services</a></li>
-                <li style="float: left; padding-right: 0.4rem;"><a href="gallery.html">Gallery</a></li>
-                <li style="float: left; padding: 1rem;"><a href="https://www.google.com/forms/about/">Career</a></li>
-                <li style="float: left; padding: 1rem;"><a href="index.html#contactus">Contact</a></li>
+        <div class="nav-btn">
+            <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+        </div>
 
-                </ul>
-            </div>
+        <div class="nav-links">
+            <a href="aboutus.html" style="color:#E63946;">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="https://forms.gle/TneiuCvxhR9sUzBj7">Career</a>
+            <a href="index.html#contactus">Contact</a>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -108,7 +114,7 @@
   </a>
 
     <section class="white-section" id="assessment">
-        <div class="landing" style="height: 470px;">
+        <div class="landing" style="height: 450px;">
             <div class="aos-init" data-aos="fade-up" data-aos-duration="1000" style="line-height: 1.5;">
                 <h1><span style="font-size: 5vw; color:#293e5a; "><span style="font-size: 5vw; color:#457B9D;">About Us</span>
                     <!-- You Are At Home Anywhere <br> <br></span>
@@ -124,7 +130,7 @@
     </section>
 
 
-    <section class="white-section" id="precautions" style="background-color: #f1faee;">
+    <section class="white-section" id="precautions" style="background-color: #f1faee;padding-top: 10px;">
         <div class="infoSection">
             <!-- <div class="infoHeader aos-init" data-aos="fade-up" data-aos-duration="1000" style="font-size:1.5rem;">
 
@@ -144,7 +150,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="card" style="padding-bottom: 39px;">
+                    <div class="card" style="padding-bottom: 20px;">
                         <h2 class="infoHeader aos-init" data-aos="fade-up" data-aos-duration="1000" style="padding-right: 45px; font-size:1.5rem;color: black;">
                             What do we do?
                         </h2>
