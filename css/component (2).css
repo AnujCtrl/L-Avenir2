@@ -52,8 +52,8 @@
 	background: #fff;
 	top: 10px;
 	left: 16%;
-	box-shadow: 
-		0 10px 0 #fff, 
+	box-shadow:
+		0 10px 0 #fff,
 		0 20px 0 #fff;
 }
 
@@ -140,10 +140,10 @@
 	display: none;
 }
 
-/* 
+/*
 When a submenu is openend, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
+We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */
@@ -776,7 +776,7 @@ All this is done for any sub-level being entered.
 .demo-1 .dl-menuwrapper button:hover,
 .demo-1 .dl-menuwrapper button.dl-active,
 .demo-1 .dl-menuwrapper ul {
-	background: #a8dadc;
+	background: #6DDCCF;
 }
 
 /* Demo 2 */

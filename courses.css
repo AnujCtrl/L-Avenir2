@@ -525,7 +525,7 @@ body {
     align-items: center;
     padding: 0 10vw 0 10vw;
     height: 100vh;
-    background-color: #A8DADC;
+    background-color: #6DDCCF;
 }
 
 .landingText h1 {
@@ -675,12 +675,12 @@ li span {
 
 .cardbgone {
     height: 150px;
-    background-color: #A8DADC;
+    background-color: #6DDCCF;
 }
 
 .cardbgtwo {
     height: 150px;
-    background-color: #A8DADC;
+    background-color: #6DDCCF;
 }
 
 .cardContent {
@@ -776,7 +776,7 @@ li span {
 /* FOOTER CSS */
 
 .footer {
-    background-color: #A8DADC;
+    background-color: #6DDCCF;
     height: 100px;
     display: flex;
     flex-direction: column;
@@ -920,11 +920,11 @@ li span {
     .footer {
         padding: 7% 15%;
         text-align: center;
-        background-color: #A8DADC;
+        background-color: #6DDCCF;
         padding-bottom: 40px;
     }
 
 
-      
+
 
 }

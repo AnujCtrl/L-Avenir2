@@ -29,26 +29,26 @@
         box-sizing: border-box;
     }
     /* Float four columns side by side */
-    
+
     .column {
         float: left;
         width: 25%;
         padding: 0 10px;
     }
     /* Remove extra left and right margins, due to padding in columns */
-    
+
     .row {
         margin: 0 -5px;
     }
     /* Clear floats after the columns */
-    
+
     .row:after {
         content: "";
         display: table;
         clear: both;
     }
     /* Style the counter cards */
-    
+
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         /* this adds the "card" effect */
@@ -57,7 +57,7 @@
         background-color: #f1f1f1;
     }
     /* Responsive columns - one column layout (vertical) on small screens */
-    
+
     @media screen and (max-width: 600px) {
         .column {
             width: 100%;
@@ -130,8 +130,8 @@
         <div class="infoSection">
 
 
-            <div class="jumbotron bg-secondary" style="padding: 100px">
-                <h1 class="infoHeader aos-init" data-aos="fade-up" data-aos-duration="1000" style="padding-right: 45px; font-size:2.5rem;color: black;">
+            <div class="jumbotron bg-secondary" style="padding: 100px; ">
+                <h1 class="infoHeader aos-init" data-aos="fade-up" data-aos-duration="1000" style="padding-right: 45px; font-size:2.5rem;color: black;position:relative; bottom:40px;">
                     What We Offer?
                 </h1>
 
@@ -143,18 +143,18 @@
                         color: #333333;
                         width: 100%;
                     }
-                    
+
                     .tftable th {
                         font-size: 18px;
                         background-color: #f1faee;
                         padding: 8px;
                         text-align: left;
                     }
-                    
+
                     .tftable tr {
                         background-color: #f1faee;
                     }
-                    
+
                     .tftable td {
                         font-size: 16px;
                         padding: 8px;
@@ -164,19 +164,19 @@
                 <table class="tftable" style="text-align: center;">
 
                     <tr>
-                        <th style="text-align: center;">
+                        <th style="text-align: center;position:relative; right:40px;">
                             <a href="#Coaching"><i class="social fas fa-book"
                                     style="font-size: 5rem; text-decoration: none; color:#1D3557;"
                                     aria-hidden="true"></i></a>
                             <!-- <i class="social fas fa-user-tie" style="font-size: 5rem; text-decoration: none; color:#1D3557;" aria-hidden="true"></i> -->
                         </th>
-                        <th style="text-align: center;">
+                        <th style="text-align: center;position:relative; right:40px;">
                             <a href="#Workshops"><img src="asset/business-people-meeting.png" style="height: 6rem; width: 6rem;"></a>
                         </th>
-                        <th style="text-align: center;">
+                        <th style="text-align: center;position:relative; right:40px;">
                             <a href="#PersonalizedEvents"><img src="asset/election-event-on-a-calendar-with-star-symbol.png" style="height: 5rem; width: 5rem;"></a>
                         </th>
-                        <th style="text-align: center;">
+                        <th style="text-align: center;position:relative; right:40px;">
                             <a href="#Translation"><i class="social fas fa-language"
                                     style="font-size: 5rem; text-decoration: none; color:#1D3557;"
                                     aria-hidden="true"></i></a>
@@ -184,11 +184,11 @@
                     </tr>
 
                     <tr>
-                        <td style="font-size:20px;"><a href="#Coaching" style="color: #333333;">Coaching</a></td>
-                        <td style="font-size:20px;"><a href="#Workshops" style="color: #333333;">Workshops</a></td>
-                        <td style="font-size:20px;"><a href="#PersonalizedEvents" style="color: #333333;">Personalized
+                        <td style="font-size:20px;position:relative; right:40px;"><a href="#Coaching" style="color: #333333;">Coaching</a></td>
+                        <td style="font-size:20px;position:relative; right:40px;"><a href="#Workshops" style="color: #333333;">Workshops</a></td>
+                        <td style="font-size:20px;position:relative; right:40px;"><a href="#PersonalizedEvents" style="color: #333333;">Personalized
                                 Events</a></td>
-                        <td style="font-size:20px;"><a href="#Translation" style="color: #333333;">Translation</a></td>
+                        <td style="font-size:20px;position:relative; right:40px;"><a href="#Translation" style="color: #333333;">Translation</a></td>
 
 
                     </tr>
@@ -197,15 +197,15 @@
 
                     <tr>
 
-                        <th style="text-align: center;">
+                        <th style="text-align: center;position:relative; left:110px;">
                             <a href="#CurriculumDesigning"><i class="social fas fa-edit"
                                     style="font-size: 5rem; text-decoration: none; color:#1D3557;"
                                     aria-hidden="true"></i></a>
                         </th>
-                        <th style="text-align: center;">
+                        <th style="text-align: center;position:relative; left:110px;">
                             <a href="#Interpretation"><img src="asset/interpretation.png" style="height: 6rem; width: 6rem;"></a>
                         </th>
-                        <th style="text-align: center;">
+                        <th style="text-align: center;position:relative; left:110px;">
                             <a href="#OtherServices"><img src="asset/file.png" style="height: 6rem; width: 6rem;"></a>
                         </th>
                         <!-- <th style="text-align: center;">
@@ -215,11 +215,11 @@
                     </tr>
 
                     <tr>
-                        <td style="font-size:20px;"><a href="#CurriculumDesigning" style="color: #333333;">Curriculum
+                        <td style="font-size:20px;position:relative; left:110px;"><a href="#CurriculumDesigning" style="color: #333333;">Curriculum
                                 Designing</a></td>
-                        <td style="font-size:20px;"><a href="#Interpretation" style="color: #333333;">Interpretation</a>
+                        <td style="font-size:20px;position:relative; left:110px;"><a href="#Interpretation" style="color: #333333;">Interpretation</a>
                         </td>
-                        <td style="font-size:20px;"><a href="#OtherServices" style="color: #333333;">Other Services</a>
+                        <td style="font-size:20px;position:relative; left:110px;"><a href="#OtherServices" style="color: #333333;">Other Services</a>
                         </td>
                         <!-- <td style="font-size:20px;">Other Services</td> -->
 
@@ -247,7 +247,7 @@
                     border-width: 5px;
                     border-color: #a9a9a9;
                 }
-                
+
                 .tftable2 th {
                     font-size: 18px;
                     background-color: #f1faee;
@@ -257,11 +257,11 @@
                     border-color: #1D3557;
                     text-align: left;
                 }
-                
+
                 .tftable2 tr {
                     background-color: #cdcdcd;
                 }
-                
+
                 .tftable2 td {
                     font-size: 16px;
                     border-width: 5px;
@@ -271,7 +271,7 @@
                 }
             </style>
 
-            <div class="container" id="Coaching" style="color:#1D3557; padding: 1vw; background-color: #A8DADC; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
+            <div class="container" id="Coaching" style="color:#1D3557; padding: 1vw; background-color: #6DDCCF; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
                 <h1>Coaching</h1>
                 <hr style="height: 1px; background-color: #1D3557; border: none; border-radius: 1vw; opacity: 80%;"><br>
                 <p>
@@ -286,7 +286,7 @@
                 </p>
             </div>
             <br><br>
-            <div class="container" id="Workshops" style="color:#1D3557; padding: 1vw; background-color: #A8DADC; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
+            <div class="container" id="Workshops" style="color:#1D3557; padding: 1vw; background-color: #6DDCCF; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
                 <h1>Workshops</h1>
                 <hr style="height: 1px; background-color: #1D3557; border: none; border-radius: 1vw; opacity: 80%;"><br>
                 <p>
@@ -299,7 +299,7 @@
 
             </div>
             <br><br>
-            <div class="container" id="PersonalizedEvents" style="color:#1D3557; padding: 1vw; background-color: #A8DADC; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
+            <div class="container" id="PersonalizedEvents" style="color:#1D3557; padding: 1vw; background-color: #6DDCCF; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
                 <h1>Personalized Events</h1>
                 <hr style="height: 1px; background-color: #1D3557; border: none; border-radius: 1vw; opacity: 80%;"><br>
                 <p>
@@ -311,7 +311,7 @@
                     <span style=" font-size:2.4rem; color:#E63946;">✔</span>Hosting various events like birthdays, corporate parties with a language twist<br>
             </div>
             <br><br>
-            <div class="container" id="Translation" style="color:#1D3557; padding: 1vw; background-color: #A8DADC; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
+            <div class="container" id="Translation" style="color:#1D3557; padding: 1vw; background-color: #6DDCCF; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
                 <h1>Translation</h1>
                 <hr style="height: 1px; background-color: #1D3557; border: none; border-radius: 1vw; opacity: 80%;"><br>
                 <p>
@@ -324,7 +324,7 @@
                 </p>
             </div>
             <br><br>
-            <div class="container" id="CurriculumDesigning" style="color:#1D3557; padding: 1vw; background-color: #A8DADC; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
+            <div class="container" id="CurriculumDesigning" style="color:#1D3557; padding: 1vw; background-color: #6DDCCF; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
                 <h1>Curriculum Designing</h1>
                 <hr style="height: 1px; background-color: #1D3557; border: none; border-radius: 1vw; opacity: 80%;"><br>
                 <p>
@@ -337,7 +337,7 @@
                 </p>
             </div>
             <br><br>
-            <div class="container" id="Interpretation" style="color:#1D3557; padding: 1vw; background-color: #A8DADC; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
+            <div class="container" id="Interpretation" style="color:#1D3557; padding: 1vw; background-color: #6DDCCF; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
                 <h1>Interpretation</h1>
                 <hr style="height: 0.7px; background-color: #1D3557; border: none; border-radius: 1vw; opacity: 80%;">
                 <br>
@@ -351,7 +351,7 @@
                 </p>
             </div>
             <br><br>
-            <div class="container" id="OtherServices" style="color:#1D3557; padding: 1vw; background-color: #A8DADC; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
+            <div class="container" id="OtherServices" style="color:#1D3557; padding: 1vw; background-color: #6DDCCF; border-style: solid; border-radius: 1vw; border-color: #1D3557; border-width: 5px;">
                 <h1>Other Services</h1>
                 <hr style="height: 1px; background-color: #1D3557; border: none; border-radius: 1vw; opacity: 80%;"><br>
                 <p>
