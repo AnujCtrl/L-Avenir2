@@ -11,12 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@476&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/b28e770cf8.js" crossorigin="anonymous"></script>
@@ -30,35 +26,31 @@
 
 <style>
     /* cards styling */
-
+    
     * {
         box-sizing: border-box;
     }
-
     /* Float four columns side by side */
-
+    
     .column {
         float: left;
         width: 33%;
         padding: 0 20px;
     }
-
     /* Remove extra left and right margins, due to padding in columns */
-
+    
     .row {
         margin: 0 -5px;
     }
-
     /* Clear floats after the columns */
-
+    
     .row:after {
         content: "";
         display: table;
         clear: both;
     }
-
     /* Style the counter cards */
-
+    
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         /* this adds the "card" effect */
@@ -67,9 +59,8 @@
         text-align: center;
         background-color: #ffffff;
     }
-
     /* Responsive columns - one column layout (vertical) on small screens */
-
+    
     @media screen and (max-width: 600px) {
         .column {
             width: 100%;
@@ -81,37 +72,38 @@
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <link rel="stylesheet" type="text/css" href="navbar.css" />
-    <div class="wrapper" style="margin-bottom: 1vw;">
-        <div class="nav">
-            <div class="logo">
-                <img src="asset/logo.jpg" class="logo" alt="cant view">
-
-
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="logo" style="padding-top: 0px;color: #000;">
+                <a href="index.html">
+                    <img src="asset/logo.jpg" class="logo" alt="cant view">
             </div>
-            <div class="" style="color:#E63946; padding-right:270px; font-size:1.5rem;"><a href="index.html"
-                    style="color: #E63946">
-                    L'Avenir Language Alliance</a>
 
+        </div>
+        <div class="" style="color:#1D3557; padding-right:270px; font-size:1.5rem;"><a href="index.html">
+                L'Avenir Language Alliance
             </div>
-            <div class="links">
-                <ul style="float: left; padding: 1rem;">
-                    <li style="float: left; padding-right: 0.4rem;"><a href="aboutus.html" style="color:#E63946;">About
-                            Us</a></li>
-                    <li style="float: left; padding-right: 1.5rem; color: black;"><a href="services.html">Services</a>
-                    </li>
-                    <li style="float: left; padding-right: 0.4rem;"><a href="gallery.html">Gallery</a></li>
-                    <li style="float: left; padding: 1rem;"><a href="https://www.google.com/forms/about/">Career</a>
-                    </li>
-                    <li style="float: left; padding: 1rem;"><a href="index.html#contactus">Contact</a></li>
+        <div class="nav-btn">
+            <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+        </div>
 
-                </ul>
-            </div>
+        <div class="nav-links">
+            <a href="aboutus.html" style="color:#E63946;">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="https://forms.gle/TneiuCvxhR9sUzBj7">Career</a>
+            <a href="index.html#contactus">Contact</a>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="js/jquery.dlmenu.js"></script>
     <script>
-        $(function () {
+        $(function() {
             $('#dl-menu').dlmenu();
         });
     </script>
@@ -148,10 +140,8 @@
                                 <tr>
                                     <td colspan="2">
                                         <h1>Technical specifications</h1>
-                                        <p style="opacity: 50%; font-weight: 200;">Lorem Ipsum is simply dummy text of
-                                            the printing and typesetting industry.<br>
-                                            Lorem Ipsum has been the industry's standard dummy text ever since the<br>
-                                            1500s, when an unknown printer took a galley of type and scrambled it to<br><br><br>
+                                        <p style="opacity: 50%; font-weight: 200;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br> Lorem Ipsum has been the industry's standard dummy text ever since the<br> 1500s, when an unknown printer took a galley of type and
+                                            scrambled it to<br><br><br>
                                         </p>
                                     </td>
 
@@ -449,9 +439,7 @@
         <div class="mapouter" style="float:left; position:relative; right:400px; top:30px;">
 
 
-            <div class="gmap_canvas"><iframe style="border-style: solid;border-width: 5px; border-color: black;"
-                    width="492" height="326" id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=L'%20Avenir%20Language%20Alliance%2048/9,%20Seth%20Sadan,%20Near%20Sion-Chunbhatti,%20Highway,%20Sion%20Cir,%20Sion%20West,%20Mumbai,%20Maharashtra%20400022&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            <div class="gmap_canvas"><iframe style="border-style: solid;border-width: 5px; border-color: black;" width="492" height="326" id="gmap_canvas" src="https://maps.google.com/maps?q=L'%20Avenir%20Language%20Alliance%2048/9,%20Seth%20Sadan,%20Near%20Sion-Chunbhatti,%20Highway,%20Sion%20Cir,%20Sion%20West,%20Mumbai,%20Maharashtra%20400022&t=&z=15&ie=UTF8&iwloc=&output=embed"
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 <style>
                     .mapouter {
@@ -479,8 +467,7 @@
 
             <i class="fas fa-map-marker-alt"></i>
             <span>Sion Branch</span>
-            <p style="font-weight:100;">48/9, Seth Sadan, Near Sion-Chunbhatti, Highway,<br> Sion Cir, Sion West,
-                Mumbai, Maharashtra 400022</p>
+            <p style="font-weight:100;">48/9, Seth Sadan, Near Sion-Chunbhatti, Highway,<br> Sion Cir, Sion West, Mumbai, Maharashtra 400022</p>
 
             <br>
             <a href="https://www.instagram.com/lavenirlanguage/"><i class="social fab fa-2x fa-instagram"
