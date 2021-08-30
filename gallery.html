@@ -19,7 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@476&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/b28e770cf8.js" crossorigin="anonymous"></script>
@@ -44,165 +45,223 @@
 </script>
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" style="background-color: white;">
-    <link rel="stylesheet" type="text/css" href="navbar.css" />
-    <div class="nav">
-        <input type="checkbox" id="nav-check">
-        <div class="nav-header">
-            <div class="logo" style="padding-top: 0px;color: #000;">
-                <a href="index.html">
-                    <img src="asset/logo.jpg" class="logo" alt="cant view">
+    <cool-ad>
+        <template class="ad__desktop">
+
+
+            <link rel="stylesheet" type="text/css" href="navbar.css" />
+            <div class="nav">
+                <input type="checkbox" id="nav-check">
+                <div class="nav-header">
+                    <div class="logo" style="padding-top: 0px;color: #000;">
+                        <a href="index.html">
+                            <img src="asset/logo.jpg" class="logo" alt="cant view">
+                    </div>
+
+                </div>
+                <div class="" style="color:#1D3557; padding-right:270px; font-size:1.5rem;"><a href="index.html">
+                        L'Avenir Language Alliance
+                </div>
+                <div class="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+
+                <div class="nav-links">
+                    <a href="aboutus.html">About Us</a>
+                    <a href="services.html">Services</a>
+                    <a href="gallery.html" style="color:#E63946;">Gallery</a>
+                    <a href="https://forms.gle/TneiuCvxhR9sUzBj7">Career</a>
+                    <a href="index.html#contactus">Contact</a>
+                </div>
             </div>
+            </div><br><br><br><br><br>
 
-        </div>
-        <div class="" style="color:#1D3557; padding-right:270px; font-size:1.5rem;"><a href="index.html">
-                L'Avenir Language Alliance
-            </div>
-        <div class="nav-btn">
-            <label for="nav-check">
-      <span></span>
-      <span></span>
-      <span></span>
-    </label>
-        </div>
+            <style>
+                html {
+                    position: relative;
+                    min-height: 100%;
+                }
 
-        <div class="nav-links">
-            <a href="aboutus.html" >About Us</a>
-            <a href="services.html">Services</a>
-            <a href="gallery.html" style="color:#E63946;">Gallery</a>
-            <a href="https://forms.gle/TneiuCvxhR9sUzBj7">Career</a>
-            <a href="index.html#contactus">Contact</a>
-        </div>
-    </div>
-    </div><br><br><br><br><br>
+                body {
+                    margin-bottom: 100px !important;
+                    background-color: white;
+                }
 
-    <style>
-        html {
-            position: relative;
-            min-height: 100%;
-        }
+                body a {
+                    text-decoration: none;
+                }
 
-        body {
-            margin-bottom: 100px !important;
-            background-color: white;
-        }
+                body a:hover {
+                    text-decoration: none;
+                }
 
-        body a {
-            text-decoration: none;
-        }
+                body p {
+                    line-height: 1.45;
+                    font-size: 16px;
+                }
 
-        body a:hover {
-            text-decoration: none;
-        }
+                footer {
+                    background-color: #000;
+                    color: rgb(0, 0, 0);
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100px;
+                    padding: 20px 0;
+                }
 
-        body p {
-            line-height: 1.45;
-            font-size: 16px;
-        }
+                #wrapper {
+                    margin-top: 30px;
+                }
 
-        footer {
-            background-color: #000;
-            color: rgb(0, 0, 0);
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 100px;
-            padding: 20px 0;
-        }
+                #filter {
+                    list-style-type: none;
+                }
 
-        #wrapper {
-            margin-top: 30px;
-        }
+                #filter li {
+                    display: inline-block;
+                    margin-right: 15px;
+                    color: black;
+                }
 
-        #filter {
-            list-style-type: none;
-        }
+                #filter li:hover {
+                    color: red;
+                    cursor: pointer;
+                }
 
-        #filter li {
-            display: inline-block;
-            margin-right: 15px;
-            color: black;
-        }
+                #filter li.active {
+                    color: red;
+                }
 
-        #filter li:hover {
-            color: red;
-            cursor: pointer;
-        }
+                #portfolio {
+                    list-style-type: none;
+                    padding-left: 0;
+                }
 
-        #filter li.active {
-            color: red;
-        }
+                #portfolio li {
+                    float: left;
+                    margin: 20px;
+                }
 
-        #portfolio {
-            list-style-type: none;
-            padding-left: 0;
-        }
+                #portfolio li img {
+                    max-width: 500px;
+                }
+            </style>
 
-        #portfolio li {
-            float: left;
-            margin: 20px;
-        }
+            <script>
+                $(function () {
 
-        #portfolio li img {
-            max-width: 500px;
-        }
-    </style>
+                    $("#filter li").click(function () {
+                        console.log(1);
+                        var category = $(this).html();
 
-    <script>
-        $(function() {
+                        category = category.toLowerCase();
 
-            $("#filter li").click(function() {
-                console.log(1);
-                var category = $(this).html();
+                        $("#filter li").removeClass("active");
 
-                category = category.toLowerCase();
+                        $(this).addClass("active");
 
-                $("#filter li").removeClass("active");
+                        $("#portfolio li").fadeOut();
 
-                $(this).addClass("active");
+                        $("#portfolio li").each(function () {
 
-                $("#portfolio li").fadeOut();
+                            if ($(this).hasClass(category)) {
+                                $(this).fadeIn();
+                            }
 
-                $("#portfolio li").each(function() {
+                        });
 
-                    if ($(this).hasClass(category)) {
-                        $(this).fadeIn();
-                    }
+                    });
 
                 });
+            </script>
 
-            });
 
-        });
+
+            <h1><span style="color: #1D3557;font-size: 3rem;position: absolute;left: 43%;">Gallery</span></h1>
+
+
+
+
+            <div id="wrapper">
+                <ul id="filter" style="color:black;">
+                    <li class="active">All</li>
+                    <li>Event_1</li>
+                    <li>Event_2</li>
+                    <li>Event_3</li>
+                </ul>
+                <ul id="portfolio">
+                    <li class="all event_1"><img src="Gallery/IMG_20180126_175205.jpg" alt="img"
+                            onclick="window.open(this.src, '_blank');"></li>
+                    <li class="all event_2"><img src="Gallery/IMG_20191207_155222.jpg" alt="img"
+                            onclick="window.open(this.src, '_blank');">></li>
+                    <li class="all event_2"><img src="Gallery/IMG_20191207_163253.jpg" alt="img"
+                            onclick="window.open(this.src, '_blank');">></li>
+                    <li class="all event_3"><img src="Gallery/IMG_20191214_120123.jpg" alt="img"
+                            onclick="window.open(this.src, '_blank');">></li>
+
+                </ul>
+
+            </div>
+
+
+
+
+            </section>
+        </template>
+        <template class="ad__mobile" style="overflow: hidden; background-color: black;">
+            <div class="center" style="text-align: center;">
+                <h2>L' Avenir Language Alliance</h2>
+                <hr style="width: 50%; border: none; background-color: #1D3557; height: 0.5px; opacity: 70%;">
+                <p>Please switch to a bigger screen<br> for further access.</p>
+                <!-- <img src="asset/android-chrome-192x192-removebg-preview.png"> -->
+
+            </div>
+
+
+            <style>
+                .center {
+                    position: absolute;
+                    top: 40%;
+                    left: 50%;
+                    width: 20em;
+                    height: 15em;
+                    margin-top: -5em;
+                    margin-left: -10em;
+                    border-style: solid;
+                    border-color: #448A81;
+                    border-radius: 20px;
+                    background-color: #6DDCCF;
+                }
+            </style>
+        </template>
+    </cool-ad>
+
+
+
+    <script>
+        class AdComponent extends HTMLElement {
+            connectedCallback() {
+                const isMobile = matchMedia('(max-width: 800px)').matches;
+                const ad = document.currentScript.closest('.ad');
+                const content = this
+                    .querySelector(isMobile ? '.ad__mobile' : '.ad__desktop')
+                    .content;
+
+                this.appendChild(document.importNode(content, true));
+            }
+        }
+
+        customElements.define('cool-ad', AdComponent);
     </script>
-
-
-
-    <h1><span style="color: #1D3557;font-size: 3rem;position: absolute;left: 43%;">Gallery</span></h1>
-
-
-
-
-    <div id="wrapper">
-        <ul id="filter" style="color:black;">
-            <li class="active">All</li>
-            <li>Event_1</li>
-            <li>Event_2</li>
-            <li>Event_3</li>
-        </ul>
-        <ul id="portfolio">
-            <li class="all event_1"><img src="Gallery/IMG_20180126_175205.jpg" alt="img" onclick="window.open(this.src, '_blank');"></li>
-            <li class="all event_2"><img src="Gallery/IMG_20191207_155222.jpg" alt="img" onclick="window.open(this.src, '_blank');">></li>
-            <li class="all event_2"><img src="Gallery/IMG_20191207_163253.jpg" alt="img" onclick="window.open(this.src, '_blank');">></li>
-            <li class="all event_3"><img src="Gallery/IMG_20191214_120123.jpg" alt="img" onclick="window.open(this.src, '_blank');">></li>
-
-        </ul>
-
-    </div>
-
-
-
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
