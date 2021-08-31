@@ -54,19 +54,47 @@
 }
 
 .ms--images .ms-slide:nth-child(1) .ms-slide__image {
-    background-image: url("asset/language illustrations-03.png");
+    background-image: url("asset/monuments2.0/english-england-stonehenge.png");
 }
 
 .ms--images .ms-slide:nth-child(2) .ms-slide__image {
-    background-image: url("asset/language illustrations-01.png");
+    background-image: url("asset/monuments2.0/hindi-india-tajmahal.png");
 }
 
 .ms--images .ms-slide:nth-child(3) .ms-slide__image {
-    background-image: url("asset/language illustrations-02.png");
+    background-image: url("asset/monuments2.0/sanskrit-india-dwarkadishtemple.png");
 }
 
 .ms--images .ms-slide:nth-child(4) .ms-slide__image {
-    background-image: url("asset/language illustrations-04.png");
+    background-image: url("asset/monuments2.0/marathi-india-gatewayofindia.png");
+}
+
+.ms--images .ms-slide:nth-child(5) .ms-slide__image {
+    background-image: url("asset/monuments2.0/french-france-eiffeltower.png");
+}
+
+.ms--images .ms-slide:nth-child(6) .ms-slide__image {
+    background-image: url("asset/monuments2.0/spanish-spain-aqueductofsegovia.png");
+}
+
+.ms--images .ms-slide:nth-child(7) .ms-slide__image {
+    background-image: url("asset/monuments2.0/germany-german-brandenburggate.png");
+}
+
+.ms--images .ms-slide:nth-child(8) .ms-slide__image {
+    background-image: url("asset/monuments2.0/italian-italy-colosseum.png");
+}
+
+.ms--images .ms-slide:nth-child(9) .ms-slide__image {
+    background-image: url("asset/monuments2.0/mandarin-china-greatwallofchina.png");
+}
+
+.ms--images .ms-slide:nth-child(10) .ms-slide__image {
+    background-image: url("asset/monuments2.0/japanese-japan-fushimiinarishrine.png");
+}
+
+.ms--images .ms-slide:nth-child(11) .ms-slide__image {
+    background-image: url("asset/monuments2.0/korea-korean-gyeongbokgungpalace.png");
 }
 
 .ms--images .ms-slide__image-container {
@@ -390,7 +418,8 @@
 }
 
 body {
-    color: white;
+    color: #457B9D;
+    text-shadow: 3px 3px #1D3557;
     background-color: #1B1C21;
     overflow: hidden;
 }

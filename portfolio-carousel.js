@@ -6,7 +6,7 @@
     var msNumbers = new MomentumSlider({
         el: slidersContainer,
         cssClass: 'ms--numbers',
-        range: [1, 4],
+        range: [1, 11],
         rangeContent: function(i) {
             return '0' + i;
         },
@@ -19,17 +19,24 @@
 
     // Initializing the titles slider
     var titles = [
-        'German',
+        'English',
+        'Hindi',
+        'Sanskrit',
+        'Marathi',
         'French',
         'Spanish',
-        'Italian'
+        'German',
+        'Italian',
+        'Mandarin',
+        'Japanese',
+        'Korean'
     ];
     var msTitles = new MomentumSlider({
         el: slidersContainer,
         cssClass: 'ms--titles',
-        range: [0, 3],
+        range: [0, 10],
         rangeContent: function(i) {
-            return '<h3>' + titles[i] + '</h3>';
+            return '<h11>' + titles[i] + '</h3>';
         },
         vertical: true,
         reverse: true,
@@ -43,9 +50,9 @@
     var msLinks = new MomentumSlider({
         el: slidersContainer,
         cssClass: 'ms--links',
-        range: [0, 3],
+        range: [0, 10],
         rangeContent: function() {
-            return '<a class="ms-slide__link">View Course</a>';
+            return '<a  class="ms-slide__link">And more</a>';
         },
         vertical: true,
         interactive: false
@@ -62,7 +69,7 @@
         // CSS class to reference the slider
         cssClass: 'ms--images',
         // Generate the 4 slides required
-        range: [0, 3],
+        range: [0, 10],
         rangeContent: function() {
             return '<div class="ms-slide__image-container"><div class="ms-slide__image"></div></div>';
         },
