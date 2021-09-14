@@ -11,8 +11,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@476&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/b28e770cf8.js" crossorigin="anonymous"></script>
@@ -28,27 +32,31 @@
     * {
         box-sizing: border-box;
     }
+
     /* Float four columns side by side */
-    
+
     .column {
         float: left;
         width: 25%;
         padding: 0 10px;
     }
+
     /* Remove extra left and right margins, due to padding in columns */
-    
+
     .row {
         margin: 0 -5px;
     }
+
     /* Clear floats after the columns */
-    
+
     .row:after {
         content: "";
         display: table;
         clear: both;
     }
+
     /* Style the counter cards */
-    
+
     .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         /* this adds the "card" effect */
@@ -56,8 +64,9 @@
         text-align: center;
         background-color: #f1f1f1;
     }
+
     /* Responsive columns - one column layout (vertical) on small screens */
-    
+
     @media screen and (max-width: 600px) {
         .column {
             width: 100%;
@@ -133,7 +142,7 @@
 
             <div style="background-color: #f1faee; height: auto; ">
 
-                <table style="padding:50px; margin-left: 100px;margin-right: 124px">
+                <!-- <table style="padding:50px; margin-left: 100px;margin-right: 124px">
                     <tbody>
                         <tr>
                             <td>
@@ -206,11 +215,6 @@
                         </tr>
                     </tbody>
                 </table>
-                <!-- <style>
-            td {
-                border-style: solid;
-            }
-        </style> -->
 
             </div>
 
@@ -249,11 +253,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <!-- <style>
-            td {
-                border-style: solid;
-            }
-        </style> -->
+
 
             </div>
             <div style="background-color: #f1faee; height: auto; ">
@@ -291,11 +291,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <!-- <style>
-            td {
-                border-style: solid;
-            }
-        </style> -->
+
 
             </div>
             <div style="background-color: #f1faee; height: auto; ">
@@ -334,11 +330,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <!-- <style>
-            td {
-                border-style: solid;
-            }
-        </style> -->
+
 
             </div>
             <div style="background-color: #f1faee; height: auto; ">
@@ -377,11 +369,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <!-- <style>
-            td {
-                border-style: solid;
-            }
-        </style> -->
+
 
             </div>
 
@@ -420,11 +408,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <!-- <style>
-            td {
-                border-style: solid;
-            }
-        </style> -->
+
 
             </div>
             <div style="background-color: #f1faee; height: auto; ">
@@ -461,12 +445,335 @@
                             </td>
                         </tr>
                     </tbody>
+                </table> -->
+
+
+                <script>
+                    var a = document.getElementById("coaching");
+                    var b = document.getElementById("workshops");
+                    var c = document.getElementById("personalisedevents");
+                    var d = document.getElementById("translation");
+                    var e = document.getElementById("curriculumdesigning");
+                    var f = document.getElementById("otherservices");
+
+                    a.style.display = "block";
+                    b.style.display = "none";
+                    c.style.display = "none";
+                    d.style.display = "none";
+                    e.style.display = "none";
+                    f.style.display = "none";
+
+                    function displayService(servicename) {
+                        var a = document.getElementById("coaching");
+                        var b = document.getElementById("workshops");
+                        var c = document.getElementById("personalisedevents");
+                        var d = document.getElementById("translation");
+                        var e = document.getElementById("curriculumdesigning");
+                        var f = document.getElementById("otherservices");
+
+                        if (servicename == "coaching") {
+                            a.style.display = "block";
+                            b.style.display = "none";
+                            c.style.display = "none";
+                            d.style.display = "none";
+                            e.style.display = "none";
+                            f.style.display = "none";
+                        }
+
+                        if (servicename == "workshops") {
+                            a.style.display = "none";
+                            b.style.display = "block";
+                            c.style.display = "none";
+                            d.style.display = "none";
+                            e.style.display = "none";
+                            f.style.display = "none";
+                        }
+
+                        if (servicename == "personalisedevents") {
+                            a.style.display = "none";
+                            b.style.display = "none";
+                            c.style.display = "block";
+                            d.style.display = "none";
+                            e.style.display = "none";
+                            f.style.display = "none";
+                        }
+
+                        if (servicename == "translation") {
+                            a.style.display = "none";
+                            b.style.display = "none";
+                            c.style.display = "none";
+                            d.style.display = "block";
+                            e.style.display = "none";
+                            f.style.display = "none";
+                        }
+
+                        if (servicename == "curriculumdesigning") {
+                            a.style.display = "none";
+                            b.style.display = "none";
+                            c.style.display = "none";
+                            d.style.display = "none";
+                            e.style.display = "block";
+                            f.style.display = "none";
+                        }
+
+                        if (servicename == "otherservices") {
+                            a.style.display = "none";
+                            b.style.display = "none";
+                            c.style.display = "none";
+                            d.style.display = "none";
+                            e.style.display = "none";
+                            f.style.display = "block";
+                        }
+
+
+                    }
+                </script>
+
+                <style>
+                    .serviceitem {
+                        transition: 0.3s;
+                        background-color: white;
+                    }
+
+                    .serviceitem:hover {
+                        transform: translate(0, -5px);
+                        background-color: #D2EFEC;
+                        cursor: pointer;
+                    }
+                </style>
+
+
+                <table class="container">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tbody>
+                                        <tr style="border-style: solid;">
+                                            <td><img src="asset/study.png" onclick="displayService('coaching')"
+                                                    class="serviceitem"
+                                                    style="margin: 25px; padding: 20px; height: 175px; width: 175px; border-radius: 1vw;">
+                                            </td>
+                                            <td><img src="asset/presentation.png" onclick="displayService('workshops')"
+                                                    class="serviceitem"
+                                                    style="margin: 25px; padding: 20px; height: 175px; width: 175px;  border-radius: 1vw;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="asset/calendar.png" class="serviceitem"
+                                                    onclick="displayService('personalisedevents')"
+                                                    style="margin: 25px; padding: 20px; height: 175px; width: 175px;  border-radius: 1vw;">
+                                            </td>
+                                            <td><img src="asset/translate.png" class="serviceitem"
+                                                    onclick="displayService('translation')"
+                                                    style="margin: 25px; padding: 20px; height: 175px; width: 175px;  border-radius: 1vw;">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><img src="asset/planning.png" class="serviceitem"
+                                                    onclick="displayService('curriculumdesigning')"
+                                                    style="margin: 25px; padding: 20px; height: 175px; width: 175px;  border-radius: 1vw;">
+                                            </td>
+                                            <td><img src="asset/customer-service.png" class="serviceitem"
+                                                    onclick="displayService('otherservices')"
+                                                    style="margin: 25px; padding: 20px; height: 175px; width: 175px;  border-radius: 1vw;">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td>
+
+
+                                <table style="min-width: 630px; margin-left: 200px;" id="coaching">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <h1>Coaching</h1>
+                                                <p style="opacity: 50%; font-weight: 200;">A team of experienced
+                                                    language experts dedicated for<br>
+                                                </p>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Nuturing young mind through our Young
+                                                    Learner's Program</h4>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Achieveing excellent academic scores
+                                                    across boards</h4>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Enhancing linguistic skills to appear
+                                                    for various International Exams</h4>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Training adults to upgrade & boost
+                                                    career</h4>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Empowering employees through our
+                                                    Corporate Training Programs</h4>
+
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table style="min-width: 630px; margin-left: 200px;" id="workshops">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <h1>Workshops </h1>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px"> Organizing one day language
+                                                    workshops<br>
+                                                    which are a blend of entertainment & learning</h4>
+
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+
+                                <table style="min-width: 630px; margin-left: 200px;" id="personalisedevents">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <h1>Personalised Events </h1>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Hosting various events like
+                                                    birthdays,<br>
+                                                    corporate parties with a language twist</h4>
+
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table style="min-width: 630px; margin-left: 200px;" id="translation">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <h1>Translation & Interpretation</h1>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Maintaining contextual accuracy &<br>
+                                                    consistency with quick turnaround time at affordable rates
+                                                    across<br>
+                                                    different languages & fields</h4>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Enabling faster & enhanced
+                                                    communication<br>
+                                                    across languages from source to target</h4>
+
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table style="min-width: 630px; margin-left: 200px;" id="curriculumdesigning">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <h1>Curriculum Designing </h1>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Curating & designing personalised<br>
+                                                    curriculum right from blueprinting process to its execution for<br>
+                                                    professional use </h4>
+
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <table style="min-width: 630px; margin-left: 200px;" id="otherservices">
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2">
+                                                <h1>Other Services </h1>
+
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <hr style="width: 70%;" align="left">
+                                                <h4 style="margin-bottom: 10px">Catering to other requirements such
+                                                    as<br>
+                                                    transcription, voice-over, subtitling & dubbing</h4>
+
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
-                <!-- <style>
-            td {
-                border-style: solid;
-            }
-        </style> -->
+
+
+
+
 
             </div>
 
