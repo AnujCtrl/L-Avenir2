@@ -244,7 +244,7 @@
 }
 
 .ms--titles .ms-slide {
-    font-size: 3.3em;
+    font-size: 4em;
     font-weight: 600;
 }
 
@@ -418,7 +418,7 @@
 }
 
 body {
-    color: #457B9D;
+    color: #ffffff;
     text-shadow: 3px 3px #1D3557;
     background-color: #1B1C21;
     overflow: hidden;

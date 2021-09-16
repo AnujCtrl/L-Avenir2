@@ -390,7 +390,7 @@ li {
 }
 
 li a {
-    color: #E63946;
+    color: #6DDCCF;
 }
 
 li:hover {
@@ -544,14 +544,14 @@ body {
     width: 120px;
     margin-top: 30px;
     padding: 14px 20px 14px 20px;
-    background-color: #E63946;
+    background-color: #6DDCCF;
     color: #fff;
     border-radius: 45px;
     text-align: center;
 }
 
 .btn:hover {
-    color: #E63946;
+    color: #6DDCCF;
     background-color: #457B9D;
 }
 
@@ -599,7 +599,7 @@ body {
 
 ol {
     list-style: none;
-    color: #E63946;
+    color: #6DDCCF;
 }
 
 ol li {
@@ -923,8 +923,4 @@ li span {
         background-color: #6DDCCF;
         padding-bottom: 40px;
     }
-
-
-
-
 }
