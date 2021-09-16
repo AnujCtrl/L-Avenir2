@@ -392,11 +392,6 @@ li a {
     color: #6DDCCF;
 }
 
-li:hover {
-    background: bisque;
-    cursor: pointer;
-}
-
 ul li ul {
     background: orange;
     left: 0;
