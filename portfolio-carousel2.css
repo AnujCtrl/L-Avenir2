@@ -100,14 +100,15 @@
 .ms--images .ms-slide__image-container {
     width: 80%;
     height: 80%;
-    background-color: rgba(168, 218, 220, 0.3);
     overflow: hidden;
+    border-radius: 20px;
 }
 
 .ms--images .ms-slide__image {
     width: 100%;
     height: 100%;
     background-size: cover;
+    border-radius: 20px;
 }
 
 .ms--numbers {
