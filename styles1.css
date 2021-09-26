@@ -508,7 +508,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0 10vw 0 10vw;
-    height: 80vh;
+    height: 90vh;
     background-color: #fff;
     /* #F1FAEE */
 }
@@ -750,8 +750,8 @@ li span {
 
 .float {
     position: fixed;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     top: 580px;
     right: 30px;
     background-color: #25d366;
@@ -820,7 +820,7 @@ li span {
     /* LANDING PAGE */
     .landing {
         flex-direction: column-reverse;
-        height: 750px;
+        height: 800px;
         align-items: center;
         justify-content: center;
         text-align: center

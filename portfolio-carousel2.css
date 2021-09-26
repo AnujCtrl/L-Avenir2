@@ -338,7 +338,7 @@
 }
 
 .pagination__button {
-    display: inline-block;
+    display: none;
     position: relative;
     width: 36px;
     height: 20px;
@@ -419,8 +419,9 @@
 }
 
 body {
-    color: #246AA5;
-    text-shadow: 3px 3px #1D3557;
+    /* color: #246AA5; */
+    color: #fff;
+    text-shadow: 3px 3px #246AA5;
     background-color: #1B1C21;
     overflow: hidden;
 }
@@ -451,7 +452,6 @@ a {
     top: 0;
     width: 300%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
